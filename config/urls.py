@@ -23,6 +23,6 @@ urlpatterns = [
     path('kikuchi/', include('kikuchi.urls')),
     path('ezura/', include('ezura.urls')),
     path('satou/', include('satou.urls')),
-    path('yamaguchi', include('KaApp.urls')),
+    path('yamaguchi', include('kazuma.urls')),
 
 ]
