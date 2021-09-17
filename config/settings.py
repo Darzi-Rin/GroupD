@@ -40,7 +40,8 @@ INSTALLED_APPS = [
 
     'hinata.apps.HinataConfig',
     'kikuchi.apps.KikuchiConfig',
-
+    
+    'ezura.apps.EzuraConfig',
 ]
 
 MIDDLEWARE = [
