@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'kikuchi.apps.KikuchiConfig',
+    'hinata.apps.HinataConfig',
 ]
 
 MIDDLEWARE = [
