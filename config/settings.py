@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'kikuchi.apps.KikuchiConfig',
     'satou.apps.SatouConfig',
     'ezura.apps.EzuraConfig',
+    'KaApp.apps.KazumaappConfig',
 ]
 
 MIDDLEWARE = [

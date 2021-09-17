@@ -23,4 +23,5 @@ urlpatterns = [
     path('kikuchi/', include('kikuchi.urls')),
     path('ezura/', include('ezura.urls')),
     path('satou/', include('satou.urls')),
+    path('KaApp', include('KaApp.urls')),
 ]
