@@ -19,10 +19,7 @@ from django.urls.conf import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-<<<<<<< HEAD
-    path('',include('satou.urls'))
-=======
+    path('',include('satou.urls')),
     path('', include('kikuchi.urls')),
     path('',include('hinata.urls')),
->>>>>>> fbe0c03919b67515c91fca47e6e81c18cef9ed52
 ]
