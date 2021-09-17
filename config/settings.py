@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'kikuchi.apps.KikuchiConfig',
     'satou.apps.SatouConfig',
     'ezura.apps.EzuraConfig',
-    'kazuma.apps.KazumaappConfig',
+    'kazuma.apps.KazumaConfig',
 
 ]
 
