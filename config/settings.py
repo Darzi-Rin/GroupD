@@ -167,7 +167,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_EMAIL_REQUIRED = True
 
 # ログイン/ログアウト後の遷移先を設定
-LOGIN_REDIRECT_URL = 'diary:diary_list'
+#LOGIN_REDIRECT_URL = ''
 ACCOUNT_LOGOUT_REDIRECT_URL = 'account_login'
 
 # ログアウトリンクのクリック一発でログアウトする設定
@@ -196,8 +196,28 @@ LOGGING = {
             'handlers':['console'],
             'level':'INFO',
         },
-        #diaryアプリケーションが利用するロガー
-        'diary':{
+        #kikuchiアプリケーションが利用するロガー
+        'kikuchi':{
+            'handlers':['console'],
+            'level':'DEBUG',
+        },
+        #hinataアプリケーションが利用するロガー
+        'hinata':{
+            'handlers':['console'],
+            'level':'DEBUG',
+        },
+        #ezuraアプリケーションが利用するロガー
+        'ezura':{
+            'handlers':['console'],
+            'level':'DEBUG',
+        },
+        #kazumaアプリケーションが利用するロガー
+        'kazuma':{
+            'handlers':['console'],
+            'level':'DEBUG',
+        },
+        #satouアプリケーションが利用するロガー
+        'satou':{
             'handlers':['console'],
             'level':'DEBUG',
         },
