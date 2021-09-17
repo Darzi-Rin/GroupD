@@ -37,6 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'hinata.apps.HinataConfig',
+    'kikuchi.apps.KikuchiConfig',
+    'satou.apps.SatouConfig',
+    'ezura.apps.EzuraConfig',
+    'KaApp.apps.KazumaappConfig',
 ]
 
 MIDDLEWARE = [
