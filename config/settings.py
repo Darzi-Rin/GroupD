@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     'hinata.apps.HinataConfig',
     'kikuchi.apps.KikuchiConfig',
-    
+    'satou.apps.SatouConfig',
     'ezura.apps.EzuraConfig',
 ]
 
